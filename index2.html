@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Pabitra!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif; /* Use the Quicksand font */
+            text-align: center;
+            background-color: #ffd2d2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            ;
+        }
+
+        header {
+            background-color: #dfffcb;
+            padding: 1em;
+            font-size: 1.5em;
+        }
+
+        #main-content {
+            padding: 2em;
+        }
+
+        img {
+            max-width: 40%;
+            height: auto;
+    
+            margin-bottom: 1em;
+        }
+
+        #message {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            margin-bottom: 1em;
+        }
+
+        #footer {
+            margin-top: 2em;
+            font-size: 0.8em;
+            color: #888;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 600px) {
+            header {
+                font-size: 1.2em;
+            }
+
+            #main-content {
+                padding: 1em;
+            }
+
+            img {
+                border-radius: 0; /* Remove border radius on smaller screens */
+            }
+
+            #message {
+                font-size: 1em;
+            }
+
+            #footer {
+                margin-top: 1em;
+                font-size: 0.7em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Happy Birthday Pabitra!👨
+    </header>
+
+    <div id="main-content">
+        <img src="picture.jpg" alt="Pabitra's Birthday Image">
+        <div id="message">
+            <p>Dear Pabitra❤️,</p>
+            <p>May your birthday be the start of a year filled with good luck💕, good health💌, and much happiness😀😀. Wishing you a day that's as special as you are. Happy Birthday🤗🤗!</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Created with ❤️ by Parambrata Ghosh</p>
+    </div>
+
+    <!-- You can add additional JavaScript for more interactivity if needed -->
+    <script>
+        // Example: Add a simple alert on page load
+        document.addEventListener("readystatechange",(event)=>{
+            if(event.target.readyState === "complete"){
+                console.log("ready");
+                window.onload = function() {
+                    alert('Happy Birthday Pabitra! 🎉');
+                };
+
+            }
+        });
+    </script>
+</body>
+</html>
